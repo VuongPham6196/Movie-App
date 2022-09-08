@@ -1,0 +1,64 @@
+.form-control {
+  position: relative;
+  display: flex;
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  padding: 10px;
+  transform: translateY(50px);
+  flex-direction: column;
+}
+
+.form-control .divide {
+  background-color: aqua;
+  margin-top: 10px;
+  height: 2px;
+  width: 100%;
+  border: none;
+}
+
+.form-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.form-button button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button .form-searchBtn {
+  background-color: aqua;
+}
+
+.form-button button:active {
+  opacity: 0.5;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input input {
+  font-size: 20px;
+  height: 100%;
+  width: 90%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+
+.form-input svg {
+  margin-right: 10px;
+  width: 25px;
+}
+
+.form-invalid {
+  color: red;
+}

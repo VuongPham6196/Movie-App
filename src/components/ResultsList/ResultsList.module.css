@@ -1,0 +1,20 @@
+.results-container {
+  margin-top: 50px;
+  width: 100%;
+  padding: 20px;
+}
+
+.results-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results-list p {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+.title {
+  color: white;
+}

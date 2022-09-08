@@ -1,0 +1,40 @@
+.movies-container {
+  width: 100%;
+  margin: 50px 0;
+  padding: 0 20px;
+}
+.movies-container h3 {
+  color: white;
+}
+.movies-list {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.snap-inline {
+  scroll-snap-type: inline mandatory;
+}
+
+.snap-inline * {
+  scroll-snap-align: start;
+}
+
+.movies-list::-webkit-scrollbar {
+  height: 10px;
+}
+.movies-list::-webkit-scrollbar-track {
+  background: rgb(58, 58, 58);
+  border-radius: 100vw;
+}
+.movies-list::-webkit-scrollbar-thumb {
+  background: rgb(20, 20, 20);
+  border-radius: 100vw;
+  height: 5px;
+  border: rgb(58, 58, 58) solid 2px;
+}
+.movies-list::-webkit-scrollbar-thumb:hover {
+  background: rgb(5, 5, 5);
+}

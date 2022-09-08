@@ -1,0 +1,51 @@
+.banner {
+  background-color: black;
+  position: relative;
+  display: flex;
+}
+
+.banner img {
+  max-height: 80vh;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+}
+
+.movie-detail {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  width: 30%;
+  color: white;
+}
+
+.movie-detail h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.movie-detail button {
+  width: 30%;
+  height: 40px;
+  margin-right: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-detail button:hover,
+.movie-detail button:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.movie-detail p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

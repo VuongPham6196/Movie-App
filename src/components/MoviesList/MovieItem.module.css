@@ -1,0 +1,20 @@
+.movie-item {
+  padding: 10px 5px;
+}
+.movie-item img {
+  height: 250px;
+  width: auto;
+  cursor: pointer;
+}
+.movie-item img:hover {
+  animation: hoverMovie 0.3s;
+  transform: scale(1.1);
+}
+@keyframes hoverMovie {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

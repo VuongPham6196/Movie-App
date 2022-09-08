@@ -1,0 +1,52 @@
+.detail-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  box-shadow: 0 -5px 5px -5px #333;
+}
+.detail {
+  width: 50%;
+  padding: 20px;
+}
+
+.detail h2 {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.detail .detail-date-rate {
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.video-trailer {
+  max-height: 70vh;
+  width: 50%;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.video-trailer img {
+  height: auto;
+  width: 100%;
+}
+
+.detail-container button {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.detail-container button:hover,
+.detail-container button:active {
+  background-color: rgb(100, 100, 100);
+}

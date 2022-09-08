@@ -1,0 +1,45 @@
+.navBar {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navBarScrolled {
+  animation: scrollNavBar 0.5s;
+  background-color: rgba(0, 0, 0, 1);
+}
+@keyframes scrollNavBar {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
+.navBar .title {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: red;
+}
+.navBar svg {
+  width: 25px;
+}
+
+.navBar .searchBtn {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.navBar .searchBtn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
